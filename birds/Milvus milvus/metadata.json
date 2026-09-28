@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Milvus milvus",
+  "name_es": "Milano real",
+  "name_fr": "Milan royal",
+  "name_it": "Nibbio reale",
+  "name_ca": "Milà reial",
+  "name_en": "Red Kite",
+  "name_gl": "Miñato real",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Milano real",
+      "author": "Thomas Kraft (ThKraft)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Milvus_milvus_R%28ThKraft%29.jpg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Milano real (vista adicional)",
+      "author": "Hansueli Krapf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2011-04-03_15-49-40_Switzerland_Kanton_Z%C3%BCrich_Mett-Oberschlatt.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Milano real (vista adicional)",
+      "author": "Mjohanning",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20230527-IMG_9985.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Milano real",
+    "author": "Pascal Christe",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Milvus_milvus_-_Red_Kite_XC518958.mp3",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

@@ -99,10 +99,12 @@
         "Chloris chloris",
         "Hirundo rustica",
         "Alectoris rufa",
+        "Milvus milvus",
         "Merops apiaster",
         "Upupa epops",
         "Falco tinnunculus",
-        "Apus apus"
+        "Apus apus",
+        "Milvus migrans"
       ]
     },
     "viveiro": {

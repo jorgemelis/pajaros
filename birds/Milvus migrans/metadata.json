@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Milvus migrans",
+  "name_es": "Milano negro",
+  "name_fr": "Milan noir",
+  "name_it": "Nibbio bruno",
+  "name_ca": "Milà negre",
+  "name_en": "Black Kite",
+  "name_gl": "Miñato negro",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Milano negro",
+      "author": "Andreas Trepte",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Schwarzmilan.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Milano negro (vista adicional)",
+      "author": "Charles J. Sharp",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Black_kite_%28Milvus_migrans_migrans%29_in_flight_Huelva.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Milano negro (vista adicional)",
+      "author": "Marie-Lan Taÿ Pamart",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Milvus_migrans_Port-de-Ris_20190812.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Milano negro",
+    "author": "Anne Ndung'u",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Milvus_migrans_-_Black_Kite_XC365863.mp3",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}
