@@ -878,6 +878,13 @@ html, body {
   color: var(--text-muted);
 }
 
+.poster-rank {
+  display: block;
+  font-size: clamp(8px, 0.9vw, 10px);
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
 .poster-name-latin {
   font-size: clamp(8px, 0.9vw, 10px);
   font-style: italic;

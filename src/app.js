@@ -701,14 +701,16 @@ function shuffleArray(arr) {
 }
 
 function renderPoster() {
+  const list = getSpeciesList();
   posterGrid.innerHTML = posterOrder.map(key => {
     const sp = catalog.species[key];
+    const rank = list.indexOf(key) + 1;  // position in the place list = eBird frequency rank
     const hasCutout = Boolean(sp.poster_cutout);
     const imgSrc = hasCutout ? imageUrl(sp, sp.poster_cutout) : imageUrl(sp, sp.poster_image);
     const imgClass = hasCutout ? 'poster-bird-img poster-bird-img-cutout' : 'poster-bird-img';
     const imgStyle = hasCutout ? `transform: rotate(${rotationDeg(sp)}deg);` : '';
     return `
-      <div class="poster-bird-cell ${gridSpanClass(sp)}">
+      <div class="poster-bird-cell ${gridSpanClass(sp)}" data-rank="${rank}">
         <div class="poster-bird-img-wrap">
           <img src="${imgSrc}" alt="${escHtml(speciesName(sp, primaryLanguage))}" class="${imgClass}" style="${imgStyle}">
         </div>
@@ -716,6 +718,7 @@ function renderPoster() {
           <span class="poster-name-latin">${escHtml(sp.scientific_name)}</span>
           <span class="poster-name-primary" lang="${primaryLanguage}">${escHtml(speciesName(sp, primaryLanguage))}</span>
           <span class="poster-name-secondary" lang="${secondaryLanguage}">${escHtml(speciesName(sp, secondaryLanguage))}</span>
+          <span class="poster-rank" title="Puesto por frecuencia">${rank}/${list.length}</span>
         </p>
       </div>
     `;
@@ -780,12 +783,24 @@ function exitPosterMode() {
   stageEl.hidden = false;
 }
 
+// Tapping a bird opens its card. In quiz mode the first tap only reveals the
+// name, so guessing still works; a second tap on a revealed bird opens it.
 posterGrid.addEventListener('click', e => {
-  if (posterShowNames) return;
   const cell = e.target.closest('.poster-bird-cell');
   if (!cell) return;
-  cell.classList.toggle('revealed');
+  if (!posterShowNames && !cell.classList.contains('revealed')) {
+    cell.classList.add('revealed');
+    return;
+  }
+  openCardFromPoster(Number(cell.dataset.rank) - 1);
 });
+
+function openCardFromPoster(index) {
+  currentBirdIndex = index;
+  currentImageIndex = 0;
+  exitPosterMode();
+  render();
+}
 
 btnPosterMode.addEventListener('click', enterPosterMode);
 btnViewPoster.addEventListener('click', enterPosterMode);
