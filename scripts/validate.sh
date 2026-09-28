@@ -109,6 +109,12 @@ for sp in "${all_species[@]}"; do
   name_ca=$(jq -r '.name_ca // empty' "$meta")
   [[ -n "$name_ca" ]] && ok "$sp: name_ca = \"$name_ca\"" || err "$sp: missing name_ca"
 
+  name_en=$(jq -r '.name_en // empty' "$meta")
+  [[ -n "$name_en" ]] && ok "$sp: name_en = \"$name_en\"" || err "$sp: missing name_en"
+
+  name_gl=$(jq -r '.name_gl // empty' "$meta")
+  [[ -n "$name_gl" ]] && ok "$sp: name_gl = \"$name_gl\"" || err "$sp: missing name_gl"
+
   poster=$(jq -r '.poster_image // empty' "$meta")
   [[ -n "$poster" ]] || err "$sp: missing poster_image"
 

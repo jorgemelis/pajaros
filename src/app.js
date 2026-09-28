@@ -38,7 +38,9 @@ const LANGUAGES = {
   es: 'Español',
   fr: 'Français',
   it: 'Italiano',
-  ca: 'Català'
+  ca: 'Català',
+  gl: 'Galego',
+  en: 'English'
 };
 const DEFAULT_PRIMARY_LANGUAGE = 'es';
 const DEFAULT_SECONDARY_LANGUAGE = 'fr';
