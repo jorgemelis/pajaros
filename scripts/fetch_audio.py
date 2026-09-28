@@ -30,6 +30,10 @@ BIRDS_DIR = os.path.join(ROOT, "birds")
 UA = "PajarosFamilyGuide/1.0 (https://github.com/jmelis/pajaros; personal non-commercial family project)"
 MAX_SIZE_BYTES = 6_000_000  # skip long dawn-chorus-style recordings
 ALLOWED_LICENSE = re.compile(r"^(cc0|cc[- ]by(-sa)?[- ]?[\d.]*|public domain|pd)", re.I)
+# Word pronunciations filed under the species, not bird sounds: Commons'
+# "<lang>-<word>.ogg" convention (De-Haubenlerche.ogg, En-us-robin.ogg) and
+# Lingua Libre's "LL-Q<id> (<lang>)-<speaker>-<word>.wav".
+PRONUNCIATION = re.compile(r"^([A-Z][a-z]{1,2}(-[a-z]{2,4})?-\S|LL-Q\d)")
 ALLOWED_EXT = re.compile(r"\.(mp3|ogg|oga)$", re.I)
 EXCLUDE_FILENAME = re.compile(
     r"(chorus|polyphonic|multiple species|mixed|background|soundscape|"
@@ -104,7 +108,8 @@ def category_file_titles(category):
     data = get_json(url)
     members = data.get("query", {}).get("categorymembers", [])
     titles = [m["title"][len("File:"):] for m in members if m["title"].startswith("File:")]
-    return [t for t in titles if ALLOWED_EXT.search(t) and not EXCLUDE_FILENAME.search(t)]
+    return [t for t in titles
+            if ALLOWED_EXT.search(t) and not EXCLUDE_FILENAME.search(t) and not PRONUNCIATION.match(t)]
 
 
 def pick_recording(scientific_name):

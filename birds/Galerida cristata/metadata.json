@@ -34,11 +34,11 @@
     }
   ],
   "audio": {
-    "file": "song.ogg",
+    "file": "song.mp3",
     "alt_es": "Canto de Cogujada común",
-    "author": "Jeuwre",
-    "source_url": "https://commons.wikimedia.org/wiki/File:De-Haubenlerche.ogg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "author": "euqirneto (iNaturalist)",
+    "source_url": "https://www.inaturalist.org/observations/174756277",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   }
 }
