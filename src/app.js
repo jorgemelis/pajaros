@@ -402,9 +402,11 @@ function enterPlace(place) {
   currentImageIndex = 0;
   updateUrl(place);
   placeChooser.hidden = true;
-  stageEl.hidden = false;
   render();
   buildPrintSheet();
+  // A place opens on its poster, most frequent birds first; "Volver" leads to the cards.
+  posterByFrequency = true;
+  enterPosterMode();
 }
 
 function goToPlace(place) {
@@ -413,6 +415,8 @@ function goToPlace(place) {
 }
 
 function showChooser() {
+  posterMode = false;
+  posterView.hidden = true;
   stageEl.hidden = true;
   placeChooser.hidden = false;
 }
@@ -687,9 +691,9 @@ function escHtml(str) {
 // reveals (or re-hides) just that bird's name. Starts with names hidden.
 
 let posterMode = false;
-let posterShowNames = false;
+let posterShowNames = true;
 let posterOrder = [];
-let posterByFrequency = false;
+let posterByFrequency = true;
 
 function shuffleArray(arr) {
   const a = arr.slice();
@@ -821,9 +825,10 @@ window.addEventListener('popstate', e => {
     currentBirdIndex = 0;
     currentImageIndex = 0;
     placeChooser.hidden = true;
-    stageEl.hidden = false;
     render();
     buildPrintSheet();
+    posterByFrequency = true;
+    enterPosterMode();
   } else {
     showChooser();
   }
