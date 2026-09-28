@@ -18,6 +18,7 @@
         <button class="chooser-btn" data-place="ourense">Ourense</button>
         <button class="chooser-btn" data-place="bruselas">Bruselas</button>
         <button class="chooser-btn" data-place="pozuelo">Pozuelo del Rey</button>
+        <button class="chooser-btn" data-place="viveiro">Viveiro</button>
       </div>
 
       <div id="chooser-language-section">
@@ -36,6 +37,13 @@
             <option value="fr">Français</option>
             <option value="it">Italiano</option>
             <option value="ca">Català</option>
+          </select>
+          <label for="chooser-bird-count">Nº de aves</label>
+          <select id="chooser-bird-count" class="bird-count-select">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="todas">Todas</option>
           </select>
         </div>
       </div>
@@ -113,6 +121,7 @@
           <button class="place-btn" data-place="ourense">Ourense</button>
           <button class="place-btn" data-place="bruselas">Bruselas</button>
           <button class="place-btn" data-place="pozuelo">Pozuelo del Rey</button>
+          <button class="place-btn" data-place="viveiro">Viveiro</button>
         </div>
       </section>
 
@@ -132,6 +141,13 @@
             <option value="fr">Français</option>
             <option value="it">Italiano</option>
             <option value="ca">Català</option>
+          </select>
+          <label for="bird-count">Nº de aves</label>
+          <select id="bird-count" class="bird-count-select">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="todas">Todas</option>
           </select>
         </div>
         <p class="help-note">El nombre científico en latín se muestra siempre.</p>
@@ -193,7 +209,7 @@
        Inlined (rather than fetched) so the page works straight from file://, no server needed. -->
 <script type="application/json" id="catalog-data">
 {
-  "generated": "2026-09-28T07:20:31Z",
+  "generated": "2026-09-28T07:57:05Z",
   "places": {
     "alicante": {
       "name_es": "Alicante",
@@ -298,6 +314,32 @@
         "Merops apiaster",
         "Alectoris rufa",
         "Falco tinnunculus"
+      ]
+    },
+    "viveiro": {
+      "name_es": "Viveiro",
+      "name_fr": "Viveiro",
+      "species": [
+        "Larus michahellis",
+        "Passer domesticus",
+        "Motacilla alba",
+        "Turdus merula",
+        "Erithacus rubecula",
+        "Corvus corone",
+        "Pica pica",
+        "Phalacrocorax carbo",
+        "Egretta garzetta",
+        "Ardea cinerea",
+        "Chroicocephalus ridibundus",
+        "Larus fuscus",
+        "Columba palumbus",
+        "Carduelis carduelis",
+        "Hirundo rustica",
+        "Parus major",
+        "Troglodytes troglodytes",
+        "Phoenicurus ochruros",
+        "Saxicola rubicola",
+        "Actitis hypoleucos"
       ]
     }
   },
@@ -944,6 +986,64 @@
         }
       ],
       "audio": null
+    },
+    "Ardea cinerea": {
+      "scientific_name": "Ardea cinerea",
+      "name_es": "Garza real",
+      "name_fr": "Héron cendré",
+      "name_it": "Airone cenerino",
+      "name_ca": "Bernat pescaire",
+      "poster_image": "principal.jpg",
+      "poster_cutout": null,
+      "poster_cutout_aspect": null,
+      "images": [
+        {
+          "file": "principal.jpg",
+          "alt_es": "Garza real",
+          "sex_age": null
+        },
+        {
+          "file": "foto2.jpg",
+          "alt_es": "Garza real (vista adicional)",
+          "sex_age": null
+        },
+        {
+          "file": "foto3.jpg",
+          "alt_es": "Garza real (vista adicional)",
+          "sex_age": null
+        }
+      ],
+      "attribution": [
+        {
+          "file": "principal.jpg",
+          "author": "Alexis Lours",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Grey_heron_2022_03_18_01.jpg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "foto2.jpg",
+          "author": "Giles Laurent",
+          "source_url": "https://commons.wikimedia.org/wiki/File:028_Grey_heron_in_the_Camargue_Photo_by_Giles_Laurent.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "foto3.jpg",
+          "author": "Cosmo F Kramer",
+          "source_url": "https://commons.wikimedia.org/wiki/File:A_nightly_Heron_visitor_%2824577031155%29.jpg",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ],
+      "audio": {
+        "file": "song.mp3",
+        "alt_es": "Canto de Garza real",
+        "author": "Joost van Bruggen",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ardea_cinerea_-_Grey_Heron_XC432231.mp3",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     "Bombycilla garrulus": {
       "scientific_name": "Bombycilla garrulus",
@@ -2195,6 +2295,64 @@
       ],
       "audio": null
     },
+    "Egretta garzetta": {
+      "scientific_name": "Egretta garzetta",
+      "name_es": "Garceta común",
+      "name_fr": "Aigrette garzette",
+      "name_it": "Garzetta",
+      "name_ca": "Martinet blanc",
+      "poster_image": "principal.jpg",
+      "poster_cutout": null,
+      "poster_cutout_aspect": null,
+      "images": [
+        {
+          "file": "principal.jpg",
+          "alt_es": "Garceta común",
+          "sex_age": null
+        },
+        {
+          "file": "foto2.jpg",
+          "alt_es": "Garceta común (vista adicional)",
+          "sex_age": null
+        },
+        {
+          "file": "foto3.jpg",
+          "alt_es": "Garceta común (vista adicional)",
+          "sex_age": null
+        }
+      ],
+      "attribution": [
+        {
+          "file": "principal.jpg",
+          "author": "Shantanu Kuveskar",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Little_egret_%28Egretta_garzetta%29_Photograph_by_Shantanu_Kuveskar.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "foto2.jpg",
+          "author": "Charles J. Sharp",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Little_egret_%28Egretta_garzetta%29_Cyprus.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "foto3.jpg",
+          "author": "Hobbyfotowiki",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Little_egret_%28Egretta_garzetta%29_in_flight.jpg",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        }
+      ],
+      "audio": {
+        "file": "song.ogg",
+        "alt_es": "Canto de Garceta común",
+        "author": "Sternanita3",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Canto_de_la_garceta_com%C3%BAn.ogg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
     "Emberiza calandra": {
       "scientific_name": "Emberiza calandra",
       "name_es": "Escribano triguero",
@@ -2797,6 +2955,57 @@
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
       }
+    },
+    "Larus fuscus": {
+      "scientific_name": "Larus fuscus",
+      "name_es": "Gaviota sombría",
+      "name_fr": "Goéland brun",
+      "name_it": "Zafferano",
+      "name_ca": "Gavià fosc",
+      "poster_image": "principal.jpg",
+      "poster_cutout": null,
+      "poster_cutout_aspect": null,
+      "images": [
+        {
+          "file": "principal.jpg",
+          "alt_es": "Gaviota sombría",
+          "sex_age": null
+        },
+        {
+          "file": "foto2.jpg",
+          "alt_es": "Gaviota sombría (vista adicional)",
+          "sex_age": null
+        },
+        {
+          "file": "foto3.jpg",
+          "alt_es": "Gaviota sombría (vista adicional)",
+          "sex_age": null
+        }
+      ],
+      "attribution": [
+        {
+          "file": "principal.jpg",
+          "author": "Andreas Trepte",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Larus-fuscus-taxbox.jpg",
+          "license": "CC BY-SA 2.5",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "foto2.jpg",
+          "author": "Hansueli Krapf",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2012-01-13_17-07-30_Spain_Canarias_Jand%C3%ADa.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "foto3.jpg",
+          "author": "Hansueli Krapf",
+          "source_url": "https://commons.wikimedia.org/wiki/File:2012-01-13_17-07-32_Spain_Canarias_Jand%C3%ADa.jpg",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ],
+      "audio": null
     },
     "Larus michahellis": {
       "scientific_name": "Larus michahellis",
@@ -4289,6 +4498,64 @@
       ],
       "audio": null
     },
+    "Saxicola rubicola": {
+      "scientific_name": "Saxicola rubicola",
+      "name_es": "Tarabilla europea",
+      "name_fr": "Tarier pâtre",
+      "name_it": "Saltimpalo",
+      "name_ca": "Bitxac comú",
+      "poster_image": "principal.jpg",
+      "poster_cutout": null,
+      "poster_cutout_aspect": null,
+      "images": [
+        {
+          "file": "principal.jpg",
+          "alt_es": "Tarabilla europea",
+          "sex_age": null
+        },
+        {
+          "file": "foto2.jpg",
+          "alt_es": "Tarabilla europea (vista adicional)",
+          "sex_age": null
+        },
+        {
+          "file": "foto3.jpg",
+          "alt_es": "Tarabilla europea (vista adicional)",
+          "sex_age": null
+        }
+      ],
+      "attribution": [
+        {
+          "file": "principal.jpg",
+          "author": "Charles J. Sharp",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Stonechat_%28Saxicola_rubicola%29_male%2C_Beaulieu%2C_Hampshire.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "foto2.jpg",
+          "author": "Hobbyfotowiki",
+          "source_url": "https://commons.wikimedia.org/wiki/File:European_stonechat_%28Saxicola_rubicola%29.jpg",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "foto3.jpg",
+          "author": "Fernando Losada Rodríguez",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola.007_-_A_Coru%C3%B1a.jpg",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ],
+      "audio": {
+        "file": "song.mp3",
+        "alt_es": "Canto de Tarabilla europea",
+        "author": "Borja",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola_-_European_Stonechat_XC424254.mp3",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
     "Serinus serinus": {
       "scientific_name": "Serinus serinus",
       "name_es": "Serín verdecillo",
@@ -5100,6 +5367,6 @@
 }
 </script>
 
-  <script src="src/app.js?v=6d16ab961e"></script>
+  <script src="src/app.js?v=592925d95c"></script>
 </body>
 </html>

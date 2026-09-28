@@ -1,0 +1,42 @@
+{
+  "scientific_name": "Saxicola rubicola",
+  "name_es": "Tarabilla europea",
+  "name_fr": "Tarier pâtre",
+  "name_it": "Saltimpalo",
+  "name_ca": "Bitxac comú",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Tarabilla europea",
+      "author": "Charles J. Sharp",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stonechat_%28Saxicola_rubicola%29_male%2C_Beaulieu%2C_Hampshire.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Tarabilla europea (vista adicional)",
+      "author": "Hobbyfotowiki",
+      "source_url": "https://commons.wikimedia.org/wiki/File:European_stonechat_%28Saxicola_rubicola%29.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Tarabilla europea (vista adicional)",
+      "author": "Fernando Losada Rodríguez",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola.007_-_A_Coru%C3%B1a.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Tarabilla europea",
+    "author": "Borja",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saxicola_rubicola_-_European_Stonechat_XC424254.mp3",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

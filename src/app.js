@@ -42,6 +42,10 @@ const LANGUAGES = {
 };
 const DEFAULT_PRIMARY_LANGUAGE = 'es';
 const DEFAULT_SECONDARY_LANGUAGE = 'fr';
+// How many birds of each place to show. Place lists in places.json are ordered
+// most-common first, so a smaller count keeps the easiest birds.
+const BIRD_COUNTS = ['10', '20', '30', 'todas'];
+const DEFAULT_BIRD_COUNT = '20';
 
 // ─── State ────────────────────────────────────────────────────────────────────
 
@@ -52,6 +56,7 @@ let currentImageIndex = 0;
 let isTransitioning = false;
 let primaryLanguage = DEFAULT_PRIMARY_LANGUAGE;
 let secondaryLanguage = DEFAULT_SECONDARY_LANGUAGE;
+let birdCount = DEFAULT_BIRD_COUNT;
 
 // ─── DOM references ───────────────────────────────────────────────────────────
 
@@ -83,6 +88,7 @@ const btnPrint    = document.getElementById('btn-print');
 const printSheet  = document.getElementById('print-sheet');
 const primaryLanguageSelects = document.querySelectorAll('.primary-language-select');
 const secondaryLanguageSelects = document.querySelectorAll('.secondary-language-select');
+const birdCountSelects = document.querySelectorAll('.bird-count-select');
 
 const stageEl              = document.getElementById('stage');
 const placeChooser         = document.getElementById('place-chooser');
@@ -102,7 +108,8 @@ const posterToggleLabel    = document.getElementById('poster-toggle-label');
 // ─── Utility ──────────────────────────────────────────────────────────────────
 
 function getSpeciesList() {
-  return catalog.places[currentPlace].species;
+  const all = catalog.places[currentPlace].species;
+  return birdCount === 'todas' ? all : all.slice(0, Number(birdCount));
 }
 
 function getCurrentSpecies() {
@@ -118,8 +125,10 @@ function speciesName(sp, language) {
   return sp[`name_${language}`] || sp.scientific_name;
 }
 
-function readLanguagesFromUrl() {
+function readSettingsFromUrl() {
   const params = new URLSearchParams(location.search);
+  const requestedCount = params.get('aves');
+  birdCount = BIRD_COUNTS.includes(requestedCount) ? requestedCount : DEFAULT_BIRD_COUNT;
   const requestedPrimary = params.get('primary');
   const requestedSecondary = params.get('secondary');
 
@@ -137,25 +146,27 @@ function readLanguagesFromUrl() {
   }
 }
 
-function syncLanguageControls() {
+function syncSettingsControls() {
+  birdCountSelects.forEach(el => { el.value = birdCount; });
   primaryLanguageSelects.forEach(el => { el.value = primaryLanguage; });
   secondaryLanguageSelects.forEach(el => { el.value = secondaryLanguage; });
   namePrimary.lang = primaryLanguage;
   nameSecondary.lang = secondaryLanguage;
 }
 
-function languageQueryString() {
+function settingsQueryString() {
   const params = new URLSearchParams(location.search);
   params.delete('p');
   params.delete('q');
   params.set('primary', primaryLanguage);
   params.set('secondary', secondaryLanguage);
+  params.set('aves', birdCount);
   return params.toString();
 }
 
-function replaceLanguageQuery() {
+function replaceSettingsQuery() {
   if (IS_FILE) return;
-  const query = languageQueryString();
+  const query = settingsQueryString();
   history.replaceState(history.state, '', `${location.pathname}?${query}${location.hash}`);
 }
 
@@ -170,8 +181,8 @@ function selectLanguage(role, language) {
     secondaryLanguage = language;
   }
 
-  syncLanguageControls();
-  replaceLanguageQuery();
+  syncSettingsControls();
+  replaceSettingsQuery();
   if (currentPlace) {
     render();
     buildPrintSheet();
@@ -179,6 +190,22 @@ function selectLanguage(role, language) {
       posterPlaceName.textContent = catalog.places[currentPlace].name_es;
       renderPoster();
     }
+  }
+}
+
+function selectBirdCount(count) {
+  if (!BIRD_COUNTS.includes(count)) return;
+  birdCount = count;
+  syncSettingsControls();
+  replaceSettingsQuery();
+  if (currentPlace) {
+    if (currentBirdIndex >= getSpeciesList().length) {
+      currentBirdIndex = 0;
+      currentImageIndex = 0;
+    }
+    render();
+    buildPrintSheet();
+    if (posterMode) shufflePoster();
   }
 }
 
@@ -389,7 +416,7 @@ function showChooser() {
 
 // ─── URL routing ──────────────────────────────────────────────────────────────
 
-const PLACE_SLUGS = ['alicante', 'ourense', 'bruselas', 'pozuelo'];
+const PLACE_SLUGS = ['alicante', 'ourense', 'bruselas', 'pozuelo', 'viveiro'];
 
 function detectPlaceFromUrl() {
   const path = location.pathname.toLowerCase();
@@ -402,7 +429,7 @@ function detectPlaceFromUrl() {
 function updateUrl(place) {
   if (IS_FILE) return; // pushState to an absolute path breaks file:// navigation
   const newPath = `${BASE_PATH}/${place}/`;
-  const newUrl = `${newPath}?${languageQueryString()}`;
+  const newUrl = `${newPath}?${settingsQueryString()}`;
   if (location.pathname !== newPath) {
     history.pushState({ place }, '', newUrl);
   } else {
@@ -561,6 +588,7 @@ chooserBtns.forEach(btn => {
 
 primaryLanguageSelects.forEach(el => el.addEventListener('change', e => selectLanguage('primary', e.target.value)));
 secondaryLanguageSelects.forEach(el => el.addEventListener('change', e => selectLanguage('secondary', e.target.value)));
+birdCountSelects.forEach(el => el.addEventListener('change', e => selectBirdCount(e.target.value)));
 
 // ─── Print sheet (A4 poster collage, replaces the old Puppeteer PDF pipeline) ─
 
@@ -596,7 +624,7 @@ function rotationDeg(sp) {
 
 function buildPrintSheet() {
   const place = catalog.places[currentPlace];
-  const speciesKeys = place.species;
+  const speciesKeys = getSpeciesList();
 
   const pages = [];
   for (let i = 0; i < speciesKeys.length; i += BIRDS_PER_PAGE) {
@@ -750,8 +778,8 @@ btnPosterToggleNames.addEventListener('click', togglePosterNames);
 
 window.addEventListener('popstate', e => {
   if (!catalog) return;
-  readLanguagesFromUrl();
-  syncLanguageControls();
+  readSettingsFromUrl();
+  syncSettingsControls();
   const place = (e.state && e.state.place) || detectPlaceFromUrl();
   if (place && catalog.places[place]) {
     currentPlace = place;
@@ -773,9 +801,9 @@ function init() {
     const dataEl = document.getElementById('catalog-data');
     if (!dataEl) throw new Error('catalog-data script tag not found — run scripts/bake.sh');
     catalog = JSON.parse(dataEl.textContent);
-    readLanguagesFromUrl();
-    syncLanguageControls();
-    replaceLanguageQuery();
+    readSettingsFromUrl();
+    syncSettingsControls();
+    replaceSettingsQuery();
 
     // Only skip the chooser if the URL already names a place (a shared link,
     // a bookmark, or coming back via browser history).

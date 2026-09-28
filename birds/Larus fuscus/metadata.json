@@ -1,0 +1,34 @@
+{
+  "scientific_name": "Larus fuscus",
+  "name_es": "Gaviota sombría",
+  "name_fr": "Goéland brun",
+  "name_it": "Zafferano",
+  "name_ca": "Gavià fosc",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Gaviota sombría",
+      "author": "Andreas Trepte",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Larus-fuscus-taxbox.jpg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Gaviota sombría (vista adicional)",
+      "author": "Hansueli Krapf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012-01-13_17-07-30_Spain_Canarias_Jand%C3%ADa.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Gaviota sombría (vista adicional)",
+      "author": "Hansueli Krapf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012-01-13_17-07-32_Spain_Canarias_Jand%C3%ADa.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ]
+}

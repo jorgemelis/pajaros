@@ -104,6 +104,32 @@
         "Alectoris rufa",
         "Falco tinnunculus"
       ]
+    },
+    "viveiro": {
+      "name_es": "Viveiro",
+      "name_fr": "Viveiro",
+      "species": [
+        "Larus michahellis",
+        "Passer domesticus",
+        "Motacilla alba",
+        "Turdus merula",
+        "Erithacus rubecula",
+        "Corvus corone",
+        "Pica pica",
+        "Phalacrocorax carbo",
+        "Egretta garzetta",
+        "Ardea cinerea",
+        "Chroicocephalus ridibundus",
+        "Larus fuscus",
+        "Columba palumbus",
+        "Carduelis carduelis",
+        "Hirundo rustica",
+        "Parus major",
+        "Troglodytes troglodytes",
+        "Phoenicurus ochruros",
+        "Saxicola rubicola",
+        "Actitis hypoleucos"
+      ]
     }
   }
 }

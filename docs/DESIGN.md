@@ -17,7 +17,7 @@ birds/
     metadata.json
     principal.jpg           # imagen principal (obligatoria)
     [otras imágenes].jpg
-places.json                 # tres lugares con lista ordenada de 20 especies cada uno
+places.json                 # lugares, cada uno con su lista ordenada de especies (de más común a menos)
 ```
 
 ### 2.2 `metadata.json` — esquema
@@ -56,7 +56,7 @@ Campos obligatorios: `scientific_name`, `name_es`, `name_fr`, `poster_image`, `i
     "alicante": {
       "name_es": "Alicante",
       "name_fr": "Alicante",
-      "species": ["Passer domesticus", "Turdus merula", "… hasta 20"]
+      "species": ["Passer domesticus", "Turdus merula", "…"]
     },
     "ourense": { "name_es": "Ourense", "name_fr": "Ourense", "species": ["…"] },
     "bruselas": { "name_es": "Bruselas", "name_fr": "Bruxelles", "species": ["…"] }
@@ -226,7 +226,7 @@ Implementadas con `location.pathname` (sin hash) usando el prefijo de repo GitHu
 ### 7.1 Script de validación (`scripts/validate.sh`, bash + jq)
 
 Comprobaciones:
-- Exactamente 20 especies distintas por lugar en `places.json`.
+- Al menos una especie por lugar en `places.json`, sin duplicados. La web muestra las N primeras según el ajuste «Nº de aves» (10/20/30/todas, por defecto 20; parámetro `?aves=`).
 - Cada especie referenciada tiene su carpeta en `birds/`.
 - Cada carpeta tiene `metadata.json` con todos los campos obligatorios.
 - El nombre científico en `metadata.json` coincide con el nombre de la carpeta.

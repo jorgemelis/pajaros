@@ -1,6 +1,6 @@
 # Guía Familiar de Aves
 
-Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas** y **Pozuelo del Rey** (20 especies por lugar). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
+Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas**, **Pozuelo del Rey** y **Viveiro**. Por defecto se ven 20 especies por lugar; el ajuste «Nº de aves» (pantalla inicial y menú) permite ver 10, 20, 30 o todas, y queda en la URL (`?aves=30`). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
 
 **Web:** https://jmelis.github.io/pajaros/
 
@@ -15,7 +15,8 @@ Catálogo de identificación de aves para paseos familiares en **Alicante**, **O
 - **Especie nueva:** crea `birds/<Genus species>/metadata.json` (copia el de otra especie), añádela a `places.json`, y ejecuta `python3 scripts/fetch_images.py "<Genus species>"` para descargar 3 fotos con licencia libre y su atribución desde Wikimedia (solo stdlib, sin `pip install`).
 - **Imagen nueva en una especie existente:** copia el archivo a `birds/<Genus species>/` y añade su entrada en `images[]` de `metadata.json` (`file`, `author`, `source_url`, `license`, `license_url`).
 - **Canto de un ave:** `python3 scripts/fetch_audio.py "<Genus species>"` descarga una grabación con licencia libre desde Wikimedia Commons (categoría `Audio files of <Genus species>`, mayormente importada de Xeno-canto) y rellena `audio` en `metadata.json`. No todas las especies tienen grabación disponible con licencia libre — en ese caso el botón de reproducir simplemente no aparece.
-- **Lugar nuevo:** añade la entrada en `places.json` (`name_es`, `name_fr`, 20 `species`) y un botón en `index.template.html` (`#place-buttons`).
+- **Lugar nuevo:** añade la entrada en `places.json` (`name_es`, `name_fr`, `species`), un botón en `index.template.html` (`#chooser-buttons` y `#place-buttons`), el slug en `PLACE_SLUGS` de `src/app.js` y en la lista de lugares obligatorios de `scripts/validate.sh`.
+- **Orden de `species`:** de más común/fácil a menos. El ajuste «Nº de aves» toma las N primeras, así que se pueden añadir especies al final sin cambiar lo que ve un niño con el valor por defecto (20).
 - **Cambio de interfaz:** edita `index.template.html`, `src/app.js` o `src/style.css`, nunca `index.html` directamente.
 - **Recorte para el póster:** `scripts/cutout.py` quita el fondo de `principal.jpg` y genera `birds/<Genus species>/poster-cutout.png` (ave flotando, sin caja) que usa la guía impresa si existe. Aparte del resto del proyecto — usa [`uv`](https://docs.astral.sh/uv/) para resolver `rembg`+`Pillow` desde las dependencias inline del script (descarga un modelo de ~1GB la primera vez y lo conserva en `~/.rembg/models/`):
   ```bash
@@ -40,7 +41,7 @@ Menú (☰) → **Imprimir esta guía** → diálogo de impresión del navegador
 birds/<Genus species>/metadata.json, principal.jpg, foto2.jpg, foto3.jpg
                             poster-cutout.png (opcional)  # ave sin fondo, para el póster
                             song.mp3/.ogg (opcional)      # canto, con botón de reproducir en la ficha
-places.json                # 4 lugares × 20 especies
+places.json                # 5 lugares, lista ordenada de especies cada uno
 
 index.template.html        # plantilla — edítala a ella, no a index.html
 index.html                 # generado por bake.sh, con el catálogo ya horneado dentro
