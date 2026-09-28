@@ -31,6 +31,10 @@ bash scripts/validate.sh   # integridad y atribución del catálogo
 bash scripts/bake.sh       # regenera index.html — comitéalo
 ```
 
+## Zonas ecológicas por país
+
+`ecorregiones/`: países cuya capital representa mal su territorio (extensión, territorios de ultramar, varios reinos biogeográficos, altitud), con puntos de precarga propuestos por ecorregión. `ecorregiones.md` (resumen y tabla), `ecorregiones.json` (datos), `ecozonas.py` (cálculo con RESOLVE Ecoregions 2017, Natural Earth y WorldClim).
+
 ## Imprimir
 
 Menú (☰) → **Imprimir esta guía** → diálogo de impresión del navegador (Guardar como PDF, o imprimir a tamaño real 100%). Genera 2 láminas A4 (10 aves cada una) en forma de collage — tamaño y rotación de cada ave según su silueta, empaquetado denso vía CSS Grid (`grid-auto-flow: dense`), sin caja alrededor. Las especies sin `poster-cutout.png` caen de vuelta a la foto normal en un recuadro.
