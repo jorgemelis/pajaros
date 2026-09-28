@@ -2,7 +2,7 @@
 
 Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas**, **Pozuelo del Rey** y **Viveiro**. Por defecto se ven 20 especies por lugar; el ajuste «Nº de aves» (pantalla inicial y menú) permite ver 10, 20, 30 o todas, y queda en la URL (`?aves=30`). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
 
-**Web:** https://jmelis.github.io/pajaros/
+**Web:** https://jorgemelis.github.io/pajaros/ (copia de [jmelis/pajaros](https://github.com/jmelis/pajaros), ampliada con Pozuelo del Rey, Viveiro y el ajuste «Nº de aves»)
 
 ## Uso local
 
