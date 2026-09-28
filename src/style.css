@@ -715,6 +715,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 10px;
 }
@@ -729,6 +730,7 @@ html, body {
 
 #poster-topbar-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -760,7 +762,8 @@ html, body {
   transform: scale(0.95);
 }
 
-.poster-ctrl-btn.quiz-active {
+.poster-ctrl-btn.quiz-active,
+#btn-poster-frequency[aria-pressed="true"] {
   background: var(--accent);
   color: #fff;
 }
@@ -789,6 +792,11 @@ html, body {
   align-content: start;
   gap: 1.4vh 1vw;
   overflow-y: auto;
+}
+
+/* Frequency order: no gap-filling, so reading order is the place's list order */
+#poster-grid.by-frequency {
+  grid-auto-flow: row;
 }
 
 #poster-bottombar {

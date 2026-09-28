@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#f6f3ec">
   <title>Guía de Aves</title>
-  <link rel="stylesheet" href="src/style.css?v=100a8d4b65">
+  <link rel="stylesheet" href="src/style.css?v=49657f4b3c">
 </head>
 <body>
   <!-- Place chooser: shown first, before any place has been picked -->
@@ -196,6 +196,9 @@
       <button id="btn-poster-back" class="poster-ctrl-btn" aria-label="Volver a la ficha">&#8592; Volver</button>
       <div id="poster-place-name"></div>
       <div id="poster-topbar-actions">
+        <button id="btn-poster-frequency" class="poster-ctrl-btn" aria-pressed="false" aria-label="Ordenar de más a menos frecuente">
+          <span aria-hidden="true">&#128202;</span> Por frecuencia
+        </button>
         <button id="btn-poster-shuffle" class="poster-ctrl-btn" aria-label="Barajar orden">
           <span aria-hidden="true">&#128256;</span> Barajar
         </button>
@@ -217,7 +220,7 @@
        Inlined (rather than fetched) so the page works straight from file://, no server needed. -->
 <script type="application/json" id="catalog-data">
 {
-  "generated": "2026-09-28T08:22:11Z",
+  "generated": "2026-09-28T08:33:54Z",
   "places": {
     "alicante": {
       "name_es": "Alicante",
@@ -5563,6 +5566,6 @@
 }
 </script>
 
-  <script src="src/app.js?v=7bfacf7486"></script>
+  <script src="src/app.js?v=256552566b"></script>
 </body>
 </html>

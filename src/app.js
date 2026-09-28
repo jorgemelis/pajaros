@@ -103,6 +103,7 @@ const posterPlaceName      = document.getElementById('poster-place-name');
 const posterGrid           = document.getElementById('poster-grid');
 const btnPosterBack        = document.getElementById('btn-poster-back');
 const btnPosterShuffle     = document.getElementById('btn-poster-shuffle');
+const btnPosterFrequency   = document.getElementById('btn-poster-frequency');
 const btnPosterToggleNames = document.getElementById('btn-poster-toggle-names');
 const posterToggleIcon     = document.getElementById('poster-toggle-icon');
 const posterToggleLabel    = document.getElementById('poster-toggle-label');
@@ -207,7 +208,7 @@ function selectBirdCount(count) {
     }
     render();
     buildPrintSheet();
-    if (posterMode) shufflePoster();
+    if (posterMode) arrangePoster();
   }
 }
 
@@ -688,6 +689,7 @@ function escHtml(str) {
 let posterMode = false;
 let posterShowNames = false;
 let posterOrder = [];
+let posterByFrequency = false;
 
 function shuffleArray(arr) {
   const a = arr.slice();
@@ -720,9 +722,24 @@ function renderPoster() {
   }).join('');
 }
 
-function shufflePoster() {
-  posterOrder = shuffleArray(getSpeciesList());
+// Frequency mode keeps places.json order (most-reported on eBird first);
+// otherwise the order is random.
+function arrangePoster() {
+  const list = getSpeciesList();
+  posterOrder = posterByFrequency ? list.slice() : shuffleArray(list);
+  posterGrid.classList.toggle('by-frequency', posterByFrequency);
+  btnPosterFrequency.setAttribute('aria-pressed', String(posterByFrequency));
   renderPoster();
+}
+
+function shufflePoster() {
+  posterByFrequency = false;
+  arrangePoster();
+}
+
+function showPosterByFrequency() {
+  posterByFrequency = true;
+  arrangePoster();
 }
 
 function updatePosterToggleNamesUI() {
@@ -751,7 +768,7 @@ function enterPosterMode() {
   posterPlaceName.textContent = catalog.places[currentPlace].name_es;
   posterGrid.classList.toggle('show-names', posterShowNames);
   updatePosterToggleNamesUI();
-  shufflePoster();
+  arrangePoster();
   stageEl.hidden = true;
   posterView.hidden = false;
   closeMenu();
@@ -774,6 +791,7 @@ btnPosterMode.addEventListener('click', enterPosterMode);
 btnViewPoster.addEventListener('click', enterPosterMode);
 btnPosterBack.addEventListener('click', exitPosterMode);
 btnPosterShuffle.addEventListener('click', shufflePoster);
+btnPosterFrequency.addEventListener('click', showPosterByFrequency);
 btnPosterToggleNames.addEventListener('click', togglePosterNames);
 
 // ─── Browser back/forward ─────────────────────────────────────────────────────
