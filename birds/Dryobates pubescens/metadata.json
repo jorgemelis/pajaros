@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Dryobates pubescens",
+  "name_es": "Pico pubescente",
+  "name_fr": "Pic mineur",
+  "name_it": "Picchio lanuginoso",
+  "name_ca": "Picot garser bec-curt",
+  "name_en": "Downy Woodpecker",
+  "name_gl": "Peto pubescente",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Pico pubescente",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dryobates_pubescens_UL_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Pico pubescente (vista adicional)",
+      "author": "Seney Natural History Association",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012_Photo_Contest_-_Wildlife_Category_%287944913484%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Pico pubescente (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20231204_downy_woodpecker_south_meadows_PD101239top.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Pico pubescente",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dryobates_pubescens_-_Downy_Woodpecker_XC118417.mp3",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

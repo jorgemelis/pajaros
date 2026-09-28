@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Spinus tristis",
+  "name_es": "Jilguero yanqui",
+  "name_fr": "Chardonneret jaune",
+  "name_it": "Lucherino americano",
+  "name_ca": "Cadernera americana",
+  "name_en": "American Goldfinch",
+  "name_gl": "Xílgaro americano",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Jilguero yanqui",
+      "author": "Rodney Campbell",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carduelis_tristis_-Michigan%2C_USA_-male-8.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Jilguero yanqui (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20231011_american_goldfinch_south_meadows_PND06713-topaz-enhance-3600w.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Jilguero yanqui (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20240905_american_goldfinch_south_meadows_PD202855.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Jilguero yanqui",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spinus_tristis_-_American_Goldfinch_XC124312.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

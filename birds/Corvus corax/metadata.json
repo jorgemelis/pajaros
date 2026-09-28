@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Corvus corax",
+  "name_es": "Cuervo grande",
+  "name_fr": "Grand Corbeau",
+  "name_it": "Corvo imperiale",
+  "name_ca": "Corb",
+  "name_en": "Northern Raven",
+  "name_gl": "Corvo grande",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Cuervo grande",
+      "author": "Frank Schulenburg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Cuervo grande (vista adicional)",
+      "author": "Grendelkhan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Corvus_corax_in_puddle_at_Bonny_Doon_Beach.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Cuervo grande (vista adicional)",
+      "author": "Charles J. Sharp",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Common_raven_%28Corvus_corax%29_in_flight_Uckermark.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Cuervo grande",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Corvus_corax_-_Northern_Raven_-_XC101590.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

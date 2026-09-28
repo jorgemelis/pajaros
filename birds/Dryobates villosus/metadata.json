@@ -1,0 +1,36 @@
+{
+  "scientific_name": "Dryobates villosus",
+  "name_es": "Pico velloso",
+  "name_fr": "Pic chevelu",
+  "name_it": "Picchio villoso",
+  "name_ca": "Picot garser pilós",
+  "name_en": "Hairy Woodpecker",
+  "name_gl": "Peto veloso",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Pico velloso",
+      "author": "JerryFriedman",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Picoides_villosus_monticola_male1.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Pico velloso (vista adicional)",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Picoides_villosus_SC.jpg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Pico velloso (vista adicional)",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Picoides_villosus_f_CT_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ]
+}

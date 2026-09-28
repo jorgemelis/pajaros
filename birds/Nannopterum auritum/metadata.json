@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Nannopterum auritum",
+  "name_es": "Cormorán orejudo",
+  "name_fr": "Cormoran à aigrettes",
+  "name_it": "Marangone orecchiuto",
+  "name_ca": "Corb marí orellut",
+  "name_en": "Double-crested Cormorant",
+  "name_gl": "Corvo mariño orelludo",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Cormorán orejudo",
+      "author": "Mdf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Phalacrocorax-auritus-007.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Cormorán orejudo (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20240601_double_crested_cormorant_wethersfield_cove_PD208065.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Cormorán orejudo (vista adicional)",
+      "author": "Polinova",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Breeding_Double-Crested_Cormorant_Close-Up_Profile.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Cormorán orejudo",
+    "author": "Unknown authorUnknown author",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Double-crested_Cormorant.ogg",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+  }
+}

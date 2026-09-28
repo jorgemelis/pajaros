@@ -45,6 +45,7 @@ BOXES = {
     "bruselas": ("50.76,50.92", "4.24,4.48"),
     "pozuelo":  ("40.30,40.42", "-3.40,-3.22"),
     "viveiro":  ("43.60,43.72", "-7.68,-7.52"),
+    "ottawa":   ("45.30,45.50", "-75.85,-75.55"),
 }
 
 
@@ -59,7 +60,8 @@ def taxon_key(scientific_name):
     m = get_json("/species/match", name=scientific_name, kingdom="Animalia")
     if m.get("class") != "Aves" or not m.get("usageKey"):
         raise ValueError(f"no GBIF bird taxon for {scientific_name}")
-    return m["usageKey"]
+    # Occurrences are indexed under the accepted name, so follow synonyms.
+    return m.get("acceptedUsageKey") or m["usageKey"]
 
 
 def counts_by_month(key, box):

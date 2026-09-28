@@ -1,6 +1,6 @@
 # Guía Familiar de Aves
 
-Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas**, **Pozuelo del Rey** y **Viveiro**. Por defecto se ven 20 especies por lugar; el ajuste «Nº de aves» (pantalla inicial y menú) permite ver 10, 20, 30 o todas, y queda en la URL (`?aves=30`). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
+Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas**, **Pozuelo del Rey**, **Viveiro** y **Ottawa**. Por defecto se ven 20 especies por lugar; el ajuste «Nº de aves» (pantalla inicial y menú) permite ver 10, 20, 30 o todas, y queda en la URL (`?aves=30`). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
 
 **Web:** https://jorgemelis.github.io/pajaros/ (copia de [jmelis/pajaros](https://github.com/jmelis/pajaros), ampliada con Pozuelo del Rey, Viveiro y el ajuste «Nº de aves»)
 
@@ -41,7 +41,7 @@ Menú (☰) → **Imprimir esta guía** → diálogo de impresión del navegador
 birds/<Genus species>/metadata.json, principal.jpg, foto2.jpg, foto3.jpg
                             poster-cutout.png (opcional)  # ave sin fondo, para el póster
                             song.mp3/.ogg (opcional)      # canto, con botón de reproducir en la ficha
-places.json                # 5 lugares, lista ordenada de especies cada uno
+places.json                # 6 lugares, lista ordenada de especies cada uno
 
 index.template.html        # plantilla — edítala a ella, no a index.html
 index.html                 # generado por bake.sh, con el catálogo ya horneado dentro

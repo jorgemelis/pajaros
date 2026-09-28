@@ -1,0 +1,36 @@
+{
+  "scientific_name": "Cardinalis cardinalis",
+  "name_es": "Cardenal norteño",
+  "name_fr": "Cardinal rouge",
+  "name_it": "Cardinale rosso",
+  "name_ca": "Cardenal vermell",
+  "name_en": "Northern Cardinal",
+  "name_gl": "Cardeal norteño",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Cardenal norteño",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Male_northern_cardinal_in_Central_Park_%2852612%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Cardenal norteño (vista adicional)",
+      "author": "Daniel Dwyer Jr",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Female_Northern_Cardinal_Cary_North_Carolina.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Cardenal norteño (vista adicional)",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Northern_cardinal_female_in_CP_%2802035%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ]
+}

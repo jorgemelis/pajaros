@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Cyanocitta cristata",
+  "name_es": "Arrendajo azul",
+  "name_fr": "Geai bleu",
+  "name_it": "Ghiandaia azzurra",
+  "name_ca": "Gaig blau",
+  "name_en": "Blue Jay",
+  "name_gl": "Gaio azul",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Arrendajo azul",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blue_jay_in_PP_%2830960%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Arrendajo azul (vista adicional)",
+      "author": "mark byzewski",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-05-23_Palmer_Park_Wildflowers_Birds_-_293.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Arrendajo azul (vista adicional)",
+      "author": "mark byzewski",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-05-23_Palmer_Park_Wildflowers_Birds_-_294.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Arrendajo azul",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cyanocitta_cristata_-_Blue_Jay_-_XC108404.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

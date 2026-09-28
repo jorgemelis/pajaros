@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Quiscalus quiscula",
+  "name_es": "Zanate norteño",
+  "name_fr": "Quiscale bronzé",
+  "name_it": "Gracola comune",
+  "name_ca": "Merla cuada comuna",
+  "name_en": "Common Grackle",
+  "name_gl": "Quíscalo común",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Zanate norteño",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Common_grackle_in_PP_%2836732%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Zanate norteño (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20240516_hr_common_grackle_keeney_cove_PD204686.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Zanate norteño (vista adicional)",
+      "author": "Heisterberg, Jon F",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%28Grackle_close_up.%29_-_DPLA_-_6344e4b51fa8dcc7120d63d690bb4a5f.jpg",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Zanate norteño",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quiscalus_quiscula_-_Common_Grackle_-_XC77876.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

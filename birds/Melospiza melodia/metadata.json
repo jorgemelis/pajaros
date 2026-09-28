@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Melospiza melodia",
+  "name_es": "Chingolo cantor",
+  "name_fr": "Bruant chanteur",
+  "name_it": "Passero cantore",
+  "name_ca": "Sit cantaire",
+  "name_en": "Song Sparrow",
+  "name_gl": "Pardal cantor",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Chingolo cantor",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Song_sparrow_in_Prospect_Park_%2893031%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Chingolo cantor (vista adicional)",
+      "author": "Seney Natural History Association",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012_Photo_Contest_-_Wildlife_Category_%287944907114%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Chingolo cantor (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_young_con_artist_plies_his_grift_-_Flickr_-_TonySprezzatura.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Chingolo cantor",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Melospiza_melodia_-_Song_Sparrow_-_XC109669.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

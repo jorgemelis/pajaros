@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Agelaius phoeniceus",
+  "name_es": "Tordo alirrojo",
+  "name_fr": "Carouge à épaulettes",
+  "name_it": "Ittero alirosse",
+  "name_ca": "Merla ala-roja",
+  "name_en": "Red-winged Blackbird",
+  "name_gl": "Tordo de ás vermellas",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Tordo alirrojo",
+      "author": "Chuck Homler, Focus On Wildlife",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red-Winged_Blackbird.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Tordo alirrojo (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20240627_red_winged_blackbird_south_meadows_PD202659.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Tordo alirrojo (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20250509_red_winged_blackbird_major_donnelly_park_PD209273.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Tordo alirrojo",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Agelaius_phoeniceus_-_Red-winged_Blackbird_-_XC75495.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

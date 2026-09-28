@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Sitta carolinensis",
+  "name_es": "Trepador pechiblanco",
+  "name_fr": "Sittelle à poitrine blanche",
+  "name_it": "Picchio muratore pettobianco",
+  "name_ca": "Pica-soques de pit blanc",
+  "name_en": "White-breasted Nuthatch",
+  "name_gl": "Piquelo de peito branco",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Trepador pechiblanco",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:White-breasted_nuthatch_%2826471%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Trepador pechiblanco (vista adicional)",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sitta_carolinensis_CT.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Trepador pechiblanco (vista adicional)",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:White-breasted_nuthatch_%2831195%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Trepador pechiblanco",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sitta_carolinensis_-_White-breasted_Nuthatch_-_XC86754.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

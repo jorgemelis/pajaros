@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Aix sponsa",
+  "name_es": "Pato joyuyo",
+  "name_fr": "Canard branchu",
+  "name_it": "Anatra sposa",
+  "name_ca": "Ànec carolí",
+  "name_en": "Wood Duck",
+  "name_gl": "Pato xoiuo",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Pato joyuyo",
+      "author": "Chuck Homler d/b/a FocusOnwWildlife",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wood_Duck_Wissahickon_Creek.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Pato joyuyo (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20250728_wood_duck_keeney_cove_PD202289.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Pato joyuyo (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20250728_wood_duck_keeney_cove_PD202292_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Pato joyuyo",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aix_sponsa_-_Wood_Duck_-_XC101287.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Larus delawarensis",
+  "name_es": "Gaviota de Delaware",
+  "name_fr": "Goéland à bec cerclé",
+  "name_it": "Gabbiano del Delaware",
+  "name_ca": "Gavina de Delaware",
+  "name_en": "Ring-billed Gull",
+  "name_gl": "Gaivota de Delaware",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Gaviota de Delaware",
+      "author": "Mdf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Larus-delawarensis-021.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Gaviota de Delaware (vista adicional)",
+      "author": "Judy Gallagher",
+      "source_url": "https://commons.wikimedia.org/wiki/File:018_365_Ring-billed_Gull_-_Larus_delawarensis%2C_Leesylvania_State_Park%2C_Woodbridge%2C_Virginia%2C_January_18%2C_2022_%2851828537457%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Gaviota de Delaware (vista adicional)",
+      "author": "Tim Ross",
+      "source_url": "https://commons.wikimedia.org/wiki/File:07-11RingbillGullStGeoIsl.jpg",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Gaviota de Delaware",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Larus_delawarensis_-_Ring-billed_Gull_-_XC75111.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

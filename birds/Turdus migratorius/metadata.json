@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Turdus migratorius",
+  "name_es": "Zorzal robín",
+  "name_fr": "Merle d'Amérique",
+  "name_it": "Tordo migratore",
+  "name_ca": "Griva americana",
+  "name_en": "American Robin",
+  "name_gl": "Tordo americano",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Zorzal robín",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_robin_%2871307%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Zorzal robín (vista adicional)",
+      "author": "m.shattock",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%281%29Bird_%2851949365717%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Zorzal robín (vista adicional)",
+      "author": "Ligocsicnarf89",
+      "source_url": "https://commons.wikimedia.org/wiki/File:0_Turdus_migratorius.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Zorzal robín",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Turdus_migratorius_-_American_Robin_-_XC107523.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

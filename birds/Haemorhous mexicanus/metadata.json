@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Haemorhous mexicanus",
+  "name_es": "Camachuelo mexicano",
+  "name_fr": "Roselin familier",
+  "name_it": "Ciuffolotto messicano",
+  "name_ca": "Pinsà casolà",
+  "name_en": "House Finch",
+  "name_gl": "Pimpín mexicano",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Camachuelo mexicano",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:House_finch_%2833688%292.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Camachuelo mexicano (vista adicional)",
+      "author": "Ligocsicnarf89",
+      "source_url": "https://commons.wikimedia.org/wiki/File:0_Haemorhous_mexicanus-2.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Camachuelo mexicano (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:House_finch_female.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Camachuelo mexicano",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Haemorhous_mexicanus_-_House_Finch_XC99546.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Poecile atricapillus",
+  "name_es": "Carbonero cabecinegro",
+  "name_fr": "Mésange à tête noire",
+  "name_it": "Cincia capinera americana",
+  "name_ca": "Mallerenga capnegra americana",
+  "name_en": "Black-capped Chickadee",
+  "name_gl": "Ferreiriño de cabeza negra",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Carbonero cabecinegro",
+      "author": "Mdf",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Poecile-atricapilla-001.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Carbonero cabecinegro (vista adicional)",
+      "author": "Superior National Forest",
+      "source_url": "https://commons.wikimedia.org/wiki/File:171025-FS-Superior-SAR-chickadeecrop2_%2837948669121%29.jpg",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Carbonero cabecinegro (vista adicional)",
+      "author": "Seney Natural History Association",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2012_Photo_Contest_-_Youth_Category_%287939517246%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Carbonero cabecinegro",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Poecile_atricapillus_-_Black-capped_Chickadee_-_XC114086.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

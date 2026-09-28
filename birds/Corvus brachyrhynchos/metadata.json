@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Corvus brachyrhynchos",
+  "name_es": "Cuervo americano",
+  "name_fr": "Corneille d'Amérique",
+  "name_it": "Cornacchia americana",
+  "name_ca": "Cornella americana",
+  "name_en": "American Crow",
+  "name_gl": "Corvo americano",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Cuervo americano",
+      "author": "Desconocido",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Corvus-brachyrhynchos-001.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Cuervo americano (vista adicional)",
+      "author": "Edna Winti",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2016_366_146_Dumpster_Diving_%2827220283776%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Cuervo americano (vista adicional)",
+      "author": "Carl T. Bergstrom",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Am_I_too_blue_for_you_-_Flickr_-_Carl_T._Bergstrom.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Cuervo americano",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Corvus_brachyrhynchos_-_American_Crow_-_XC110263.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

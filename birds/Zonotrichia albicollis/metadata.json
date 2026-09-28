@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Zonotrichia albicollis",
+  "name_es": "Chingolo gorgiblanco",
+  "name_fr": "Bruant à gorge blanche",
+  "name_it": "Passero golabianca",
+  "name_ca": "Sit gorjablanc",
+  "name_en": "White-throated Sparrow",
+  "name_gl": "Pardal de gorxa branca",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Chingolo gorgiblanco",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zonotrichia_albicollis_CT1.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Chingolo gorgiblanco (vista adicional)",
+      "author": "Judy Gallagher",
+      "source_url": "https://commons.wikimedia.org/wiki/File:021_365_White-throated_Sparrow_-_Zonotrichia_albicollis%2C_Prince_William_Forest_Park%2C_Triangle%2C_Virginia%2C_January_21%2C_2022_%2851835342470%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Chingolo gorgiblanco (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20231202_white_throated_sparrow_south_meadows_PD101160.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Chingolo gorgiblanco",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zonotrichia_albicollis_-_White-throated_Sparrow_-_XC77875.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Bombycilla cedrorum",
+  "name_es": "Ampelis americano",
+  "name_fr": "Jaseur d'Amérique",
+  "name_it": "Beccofrusone del cedro",
+  "name_ca": "Ocell sedós americà",
+  "name_en": "Cedar Waxwing",
+  "name_gl": "Picoteiro americano",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Ampelis americano",
+      "author": "Rhododendrites",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cedar_waxwing_in_pokeweed_%2810132%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Ampelis americano (vista adicional)",
+      "author": "Hans-Jörg Hellwig",
+      "source_url": "https://commons.wikimedia.org/wiki/File:01-vseida-09-04.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Ampelis americano (vista adicional)",
+      "author": "Oregon Department of Fish &amp; Wildlife",
+      "source_url": "https://commons.wikimedia.org/wiki/File:021412_cedar_waxwing_3_wray_%2850094816432%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Ampelis americano",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bombycilla_cedrorum_-_Cedar_Waxwing_-_XC107623.ogg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}

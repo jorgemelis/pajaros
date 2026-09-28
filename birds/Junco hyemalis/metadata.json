@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Junco hyemalis",
+  "name_es": "Junco pizarroso",
+  "name_fr": "Junco ardoisé",
+  "name_it": "Junco occhiscuri",
+  "name_ca": "Junco fosc",
+  "name_en": "Dark-eyed Junco",
+  "name_gl": "Junco escuro",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Junco pizarroso",
+      "author": "Cephas",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Junco_hyemalis_hyemalis_CT1_%28cropped%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Junco pizarroso (vista adicional)",
+      "author": "Judy Gallagher",
+      "source_url": "https://commons.wikimedia.org/wiki/File:020_366_-_Dark-eyed_Junco_-_Junco_hyemalis%2C_Pohick_Regional_Park%2C_Mason_Neck%2C_Virginia%2C_January_20%2C_2024_%2853476846694%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Junco pizarroso (vista adicional)",
+      "author": "Paul Danese",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20231108_dark_eyed_junco_south_meadows_PND08955.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Junco pizarroso",
+    "author": "Jonathon Jongsma",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Junco_hyemalis_-_Dark-eyed_Junco_XC104511.mp3",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+}
