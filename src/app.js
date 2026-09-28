@@ -69,6 +69,7 @@ const imgLoading   = document.getElementById('img-loading');
 const nameLatin    = document.getElementById('name-latin');
 const namePrimary  = document.getElementById('name-primary');
 const nameSecondary = document.getElementById('name-secondary');
+const seasonEl     = document.getElementById('season');
 const imgDots      = document.getElementById('img-dots');
 const birdCounter  = document.getElementById('bird-counter');
 
@@ -212,6 +213,26 @@ function selectBirdCount(count) {
   }
 }
 
+const MONTH_LETTERS = ['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+const MONTH_NAMES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
+  'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+// 12 bars, one per month: how often the bird is reported here that month on
+// eBird, relative to its best month (100). Built by scripts/ebird_order.py.
+function renderSeason(key) {
+  const profile = (catalog.places[currentPlace].months || {})[key];
+  seasonEl.hidden = !profile;
+  if (!profile) return;
+  const now = new Date().getMonth();
+  seasonEl.innerHTML = profile.map((v, m) => `
+    <span class="season-month${m === now ? ' now' : ''}">
+      <span class="season-bar" style="--v: ${v / 100}"></span>
+      <span class="season-letter">${MONTH_LETTERS[m]}</span>
+    </span>`).join('');
+  const best = profile.map((v, m) => (v >= 50 ? MONTH_NAMES[m] : null)).filter(Boolean);
+  seasonEl.setAttribute('aria-label', `Meses en que más se ve aquí: ${best.join(', ')}`);
+}
+
 // ─── Rendering ───────────────────────────────────────────────────────────────
 
 function render() {
@@ -247,6 +268,7 @@ function render() {
   nameLatin.textContent = sp.scientific_name;
   namePrimary.textContent = speciesName(sp, primaryLanguage);
   nameSecondary.textContent = speciesName(sp, secondaryLanguage);
+  renderSeason(sp.scientific_name);
 
   // Counter (also shows the current place, since a session can start at any place)
   const list = getSpeciesList();

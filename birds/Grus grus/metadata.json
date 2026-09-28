@@ -1,0 +1,36 @@
+{
+  "scientific_name": "Grus grus",
+  "name_es": "Grulla común",
+  "name_fr": "Grue cendrée",
+  "name_it": "Gru cenerina",
+  "name_ca": "Grua",
+  "name_en": "Common Crane",
+  "name_gl": "Grou común",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Grulla común",
+      "author": "Andreas Trepte",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Common_crane_grus_grus.jpg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Grulla común (vista adicional)",
+      "author": "DimiTalen",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flock_of_cranes_%28Grus_grus%29_flying_over_the_High_Fens%2C_Eupen%2C_2025.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Grulla común (vista adicional)",
+      "author": "Diego Delso",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Grullas_comunes_%28Grus_grus%29%2C_Bello%2C_Teruel%2C_Espa%C3%B1a%2C_2017-01-04%2C_DD_25.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ]
+}

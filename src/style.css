@@ -196,6 +196,44 @@ html, body {
   margin-bottom: 4px;
 }
 
+#season {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 3px;
+  margin-top: 10px;
+  max-width: 320px;
+}
+
+.season-month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.season-bar {
+  width: 100%;
+  height: 18px;
+  border-radius: 2px;
+  background: linear-gradient(to top, var(--accent) calc(var(--v) * 100%), rgba(30, 28, 20, 0.07) 0);
+}
+
+.season-letter {
+  font-size: 10px;
+  line-height: 1;
+  color: var(--text-faint);
+}
+
+.season-month.now .season-letter {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.season-month.now .season-bar {
+  outline: 1.5px solid var(--text);
+  outline-offset: 1px;
+}
+
 #names-row {
   display: flex;
   flex-wrap: wrap;
@@ -797,6 +835,12 @@ html, body {
 /* Frequency order: no gap-filling, so reading order is the place's list order */
 #poster-grid.by-frequency {
   grid-auto-flow: row;
+}
+
+/* ...and every bird the same size, so a tall bird's label can't sit below the next one's */
+#poster-grid.by-frequency .poster-bird-cell {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 #poster-bottombar {

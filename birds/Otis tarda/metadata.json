@@ -1,0 +1,44 @@
+{
+  "scientific_name": "Otis tarda",
+  "name_es": "Avutarda euroasiática",
+  "name_fr": "Outarde barbue",
+  "name_it": "Otarda",
+  "name_ca": "Pioc salvatge",
+  "name_en": "Great Bustard",
+  "name_gl": "Abetarda",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Avutarda euroasiática",
+      "author": "Andrej Chudý from Slovakia",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Drop_f%C3%BAzat%C3%BD_%28Otis_tarda%29_%282416576086%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Avutarda euroasiática (vista adicional)",
+      "author": "Luiz Lapa from Oeiras, Portugal",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Abetarda-comum%2C_macho%2C_na_sua_parada_nupcial%2C_tb_conhecida_como%2C_%22banho_de_espuma%22%2C_Great_Bustard%2C_male%2C_on_bridal_parade%2C_also_known_as_%22_Foam_bath_display%22_%2854455665346%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Avutarda euroasiática (vista adicional)",
+      "author": "Vítor Manuel Nascimento de Azevedo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:79A2575a.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.ogg",
+    "alt_es": "Canto de Avutarda euroasiática",
+    "author": "Bezdzwiek",
+    "source_url": "https://commons.wikimedia.org/wiki/File:G%C5%82os_dropa.ogg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}
