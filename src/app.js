@@ -389,7 +389,7 @@ function showChooser() {
 
 // ─── URL routing ──────────────────────────────────────────────────────────────
 
-const PLACE_SLUGS = ['alicante', 'ourense', 'bruselas'];
+const PLACE_SLUGS = ['alicante', 'ourense', 'bruselas', 'pozuelo'];
 
 function detectPlaceFromUrl() {
   const path = location.pathname.toLowerCase();

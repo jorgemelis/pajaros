@@ -1,0 +1,42 @@
+{
+  "scientific_name": "Merops apiaster",
+  "name_es": "Abejaruco europeo",
+  "name_fr": "Guêpier d'Europe",
+  "name_it": "Gruccione",
+  "name_ca": "Abellerol",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Abejaruco europeo",
+      "author": "Andy Morffew from Itchen Abbas, Hampshire, UK",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bee-eater_%2819270331108%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Abejaruco europeo (vista adicional)",
+      "author": "Giles Laurent",
+      "source_url": "https://commons.wikimedia.org/wiki/File:017_European_bee-eater_spreading_its_wings_in_Pfyn-Finges_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Abejaruco europeo (vista adicional)",
+      "author": "Giles Laurent",
+      "source_url": "https://commons.wikimedia.org/wiki/File:022_European_bee-eater_attacking_another_European_bee-eater_in_Pfyn-Finges_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "audio": {
+    "file": "song.mp3",
+    "alt_es": "Canto de Abejaruco europeo",
+    "author": "Pascal Christe",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Merops_apiaster_-_European_Bee-eater_XC477953.mp3",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

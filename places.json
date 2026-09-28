@@ -78,6 +78,32 @@
         "Apus apus",
         "Passer domesticus"
       ]
+    },
+    "pozuelo": {
+      "name_es": "Pozuelo del Rey",
+      "name_fr": "Pozuelo del Rey",
+      "species": [
+        "Passer domesticus",
+        "Pica pica",
+        "Turdus merula",
+        "Columba palumbus",
+        "Streptopelia decaocto",
+        "Sturnus unicolor",
+        "Serinus serinus",
+        "Carduelis carduelis",
+        "Chloris chloris",
+        "Linaria cannabina",
+        "Galerida cristata",
+        "Emberiza calandra",
+        "Curruca melanocephala",
+        "Parus major",
+        "Hirundo rustica",
+        "Apus apus",
+        "Upupa epops",
+        "Merops apiaster",
+        "Alectoris rufa",
+        "Falco tinnunculus"
+      ]
     }
   }
 }

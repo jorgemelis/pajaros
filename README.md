@@ -1,6 +1,6 @@
 # Guía Familiar de Aves
 
-Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense** y **Bruselas** (20 especies por lugar). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
+Catálogo de identificación de aves para paseos familiares en **Alicante**, **Ourense**, **Bruselas** y **Pozuelo del Rey** (20 especies por lugar). Web estática, navegable con gestos, más una guía A4 imprimible generada por el propio navegador.
 
 **Web:** https://jmelis.github.io/pajaros/
 
@@ -40,7 +40,7 @@ Menú (☰) → **Imprimir esta guía** → diálogo de impresión del navegador
 birds/<Genus species>/metadata.json, principal.jpg, foto2.jpg, foto3.jpg
                             poster-cutout.png (opcional)  # ave sin fondo, para el póster
                             song.mp3/.ogg (opcional)      # canto, con botón de reproducir en la ficha
-places.json                # 3 lugares × 20 especies
+places.json                # 4 lugares × 20 especies
 
 index.template.html        # plantilla — edítala a ella, no a index.html
 index.html                 # generado por bake.sh, con el catálogo ya horneado dentro

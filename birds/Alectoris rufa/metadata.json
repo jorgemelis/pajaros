@@ -1,0 +1,34 @@
+{
+  "scientific_name": "Alectoris rufa",
+  "name_es": "Perdiz roja",
+  "name_fr": "Perdrix rouge",
+  "name_it": "Pernice rossa",
+  "name_ca": "Perdiu roja",
+  "poster_image": "principal.jpg",
+  "images": [
+    {
+      "file": "principal.jpg",
+      "alt_es": "Perdiz roja",
+      "author": "Pierre Dalous",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Perdrix_rouge.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "file": "foto2.jpg",
+      "alt_es": "Perdiz roja (vista adicional)",
+      "author": "Jac. Janssen from Baarlo lb, NL",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alectoris_rufa_%2834451167376%29.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "file": "foto3.jpg",
+      "alt_es": "Perdiz roja (vista adicional)",
+      "author": "Birdwatching Barcelona",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alectoris_rufa_Barcelona.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+  ]
+}

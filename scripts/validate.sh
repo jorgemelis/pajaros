@@ -27,7 +27,7 @@ if ! jq_err=$(jq empty places.json 2>&1); then
   exit 1
 fi
 
-for p in alicante ourense bruselas; do
+for p in alicante ourense bruselas pozuelo; do
   jq -e ".places[\"$p\"]" places.json > /dev/null 2>&1 || err "Missing required place: $p"
 done
 
